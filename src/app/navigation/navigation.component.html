@@ -1,0 +1,22 @@
+<div class="burger">
+  <div class="burger-line"></div>
+  <div class="burger-line"></div>
+  <div class="burger-line"></div>
+</div>
+
+<nav class="navbar navbar-default sidebar" role="navigation">
+  <div class="nav-box">
+    <span class="cross">
+      &#10005;
+    </span>
+  <ul class="nav navbar-nav">
+    <li><a [routerLink]="['/home']">Home <span class="pull-right hidden-xs fa fa-home"></span></a></li>
+    <li><a [routerLink]="['/films-populaires']">Films populaires <span class="pull-right hidden-xs fa fa-star"></span></a></li>
+    <li><a [routerLink]="['/recherche']">Recherche <span class="pull-right hidden-xs fa fa-search"></span></a></li>
+  </ul>
+  </div>
+
+
+</nav>
+
+<router-outlet></router-outlet>
